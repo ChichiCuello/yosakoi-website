@@ -175,7 +175,7 @@ padding: 120px 0 60px 0;
     font-weight: 700;
     font-family: "Noto Serif JP", sans-serif;
     letter-spacing: 0.15em;
-    color: hsl(24, 100%, 50%);
+    color:hsl(60, 100%, 50%);
     opacity: 0.5;
     z-index: -1;
 }
