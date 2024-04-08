@@ -331,6 +331,9 @@ padding: 120px 0 60px 0;
     color: hsl(12, 100%, 50%);
 }
 @media screen and (max-width: 768px) {
+    #more::before{
+        font-size: 60px;
+    }
     #more .text{
         line-height: 16px;
     }
