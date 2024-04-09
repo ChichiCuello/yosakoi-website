@@ -353,20 +353,26 @@ footer {
 }
 footer p{
     text-align: center;
-    letter-spacing: normal;
+    letter-spacing: 0.2em;
+    line-height: 1.5em;
     padding: 16px;
     color: white;
     font-size: 12px;
 }
-
-
+ footer span{
+    font-style: italic;
+    transition: 0.3s;
+ }
+footer span:hover{
+    color: hsl(0, 0%, 0%);
+}
 
 
 
 /* hidden show property list */
 .hidden{
     opacity: 0;
-    transition: all 2s;
+    transition: all 2.5s;
 }
 
 .show{
